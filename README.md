@@ -85,10 +85,15 @@ The system is wrapped into a **Streamlit web app** that allows users to:
 - **Streamlit** (Web app)  
 - **Jupyter Notebook** (Prototyping)  
 - **GitHub & LinkedIn** (Deployment & showcase)  
-<img width="779" height="354" alt="Screenshot 2025-09-19 111921" src="https://github.com/user-attachments/assets/cdcb6cfd-de27-4394-b0cf-3a7ebf7b23d8" />
-<img width="1810" height="643" alt="Screenshot 2025-09-19 110530" src="https://github.com/user-attachments/assets/3009f1e5-0064-4ddf-b326-b0dce2c041e5" />
-<img width="1806" height="534" alt="Screenshot 2025-09-19 110514" src="https://github.com/user-attachments/assets/54f4950a-1c4b-459b-bf79-0b14cb8d4080" />
-<img width="1905" height="515" alt="Screenshot 2025-09-19 110457" src="https://github.com/user-attachments/assets/1c2db692-da20-4e26-ab62-1517b395b800" />
-<img width="823" height="439" alt="Screenshot 2025-09-19 110424" src="https://github.com/user-attachments/assets/28a53adb-5d88-4f5a-b454-114028bd633a" />
-<img width="1833" height="756" alt="Screenshot 2025-09-19 110357" src="https://github.com/user-attachments/assets/5e7ee953-dd4d-4cfc-a0c8-3b220a52f13d" />
-<img width="1843" height="786" alt="Screenshot 2025-09-19 110329" src="https://github.com/user-attachments/assets/aebe2a6e-928f-418b-b9ee-541554daf172" />
+
+**IMAGES & SCREENSHOTS**
+<img width="1810" height="643" alt="6" src="https://github.com/user-attachments/assets/bff3ba7f-0238-4499-847c-37af46822384" />
+<img width="1806" height="534" alt="5" src="https://github.com/user-attachments/assets/a57f7206-5692-4697-a284-08d0f2fda8dc" />
+<img width="1905" height="515" alt="4" src="https://github.com/user-attachments/assets/53fbdd93-5b03-456d-9c13-e5e24a94fd29" />
+<img width="823" height="439" alt="3" src="https://github.com/user-attachments/assets/007c6871-ff15-4b23-bffc-536d263d764f" />
+<img width="1833" height="756" alt="2" src="https://github.com/user-attachments/assets/76782397-7870-48ec-81ce-ab057fb51376" />
+<img width="1843" height="786" alt="1" src="https://github.com/user-attachments/assets/415222dc-c308-40fd-94fe-24c339801e22" />
+
+
+
+
