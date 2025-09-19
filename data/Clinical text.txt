@@ -1,0 +1,16 @@
+Patient Name: John Smith
+Age: 62
+Visited: Green Valley Hospital, New York
+Date of Admission: 12/03/2024
+Phone: +1-212-555-6789
+Email: john.smith@example.com
+Patient ID: JS123456
+
+Chief Complaint: Patient reported severe Chest pain, persistent Cough, and Fever.  
+Past Medical History: Hypertension, Diabetes.  
+Current Medications: Metformin 500mg daily, Aspirin 75mg, Lisinopril 10mg.  
+Lab Tests Ordered: Blood Glucose, Hemoglobin, ECG, CT scan chest.  
+Procedure Performed: Appendectomy on 14/03/2024.  
+
+Consulted with Dr. Emily Davis at Green Valley Hospital.  
+Patient discharged to home at 456 Elm Street, New York on 20/03/2024.

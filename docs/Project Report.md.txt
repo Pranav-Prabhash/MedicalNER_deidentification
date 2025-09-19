@@ -1,0 +1,84 @@
+📘 Project Documentation – Clinical Notes De-Identification & Entity Extraction App
+1. Project Overview
+The goal of this project was to build an end-to-end pipeline for de-identifying sensitive information (PHI/PII) in clinical notes and extracting medically relevant entities. The system was wrapped into a Streamlit web application that allows users to upload clinical notes, instantly view the masked version, and download structured outputs.
+________________________________________
+2. Motivation
+•	Protecting patient privacy is mandatory under HIPAA and Indian health regulations.
+•	Unstructured clinical notes contain sensitive identifiers (names, addresses, phone numbers, IDs).
+•	For research & analytics, we need to retain medical information (diseases, symptoms, medications) but remove PHI.
+•	This project shows how NLP + regex + rule-based masking can solve this problem.
+________________________________________
+3. Methodology
+Step 1 – Input Handling
+•	User uploads a .txt file containing clinical notes.
+•	The app reads raw text.
+Step 2 – De-Identification Pipeline
+Implemented in deid_pipeline_fixed.py:
+•	Regex masking for:
+o	Dates (dd-mm-yyyy, mm/dd/yyyy, month names etc.)
+o	Phone numbers
+o	Emails
+o	Patient IDs
+o	Addresses & known Indian cities
+•	spaCy NER masking for:
+o	PERSON → [NAME]
+o	ORG (if hospital/clinic/insurance) → [ORG]
+o	GPE/LOC/FAC → [ADDRESS]
+o	DATE → [DATE]
+•	Whitelist protection: prevents common medical terms (e.g., fever, cough, diabetes) from being wrongly masked.
+Step 3 – Entity Extraction
+Implemented in entity_extract_pipeline.py:
+•	Extract entities relevant to clinical text:
+o	DISEASE, SYMPTOM, MEDICATION, LAB_TEST, PROCEDURE
+•	Outputs structured table with:
+Entity | Type | Start | End (character positions)
+Step 4 – Streamlit App
+Implemented in Clinical_text_mask_entity_app.py:
+•	Upload .txt clinical notes.
+•	Toggle between original and masked view.
+•	Entities are highlighted with color codes in masked view.
+•	Download options:
+o	Masked text (.txt)
+o	Extracted entities (.csv)
+•	Metrics:
+o	Count of entities by type
+o	Table with Entity | Type | Count
+o	Bar chart (Entity Type frequency)
+________________________________________
+4. Key Features
+•	Privacy-preserving: masks sensitive PHI/PII.
+•	Preserves medical context: retains diseases, symptoms, drugs.
+•	Interactive UI: easy toggling & highlighting.
+•	Downloadable outputs: useful for downstream ML pipelines.
+•	Extensible: whitelist & regex patterns can be expanded.
+________________________________________
+5. Challenges Faced
+1.	Over-masking issue: Words like fever were masked as [ADDRESS].
+o	✅ Solved using a medical-term whitelist.
+2.	Regex false positives: Some IDs/emails overlapped with normal text.
+o	✅ Balanced regex strictness vs flexibility.
+3.	NER inconsistencies: spaCy sometimes missed rare medical entities.
+o	✅ Added custom dictionary rules for medications/tests.
+4.	Entity overlap: e.g., “CT scan” classified as both procedure and lab test.
+o	✅ Kept both categories for completeness.
+________________________________________
+6. Applications
+•	Hospitals/Clinics: safe sharing of de-identified patient notes.
+•	Medical Research: enable NLP studies without violating privacy.
+•	Healthcare Startups: build data lakes from structured entity outputs.
+•	AI Models: feed masked notes into clinical NLP models safely.
+________________________________________
+7. Future Prospects
+•	Integrate transformer-based de-identification models (e.g., BioBERT, ClinicalBERT).
+•	Use FHIR standard for structured outputs.
+•	Build API version of the app (FastAPI + Docker) for enterprise use.
+•	Extend to multi-language support (Indian regional languages).
+•	Add evaluation metrics like Precision/Recall against gold annotations.
+•	Enhance with synthetic PHI generation for testing robustness.
+________________________________________
+8. Tech Stack
+•	Python (Regex, spaCy, Pandas)
+•	Streamlit (Web app)
+•	Jupyter Notebook (Prototyping)
+•	GitHub + LinkedIn (deployment & showcase)
+________________________________________
