@@ -87,12 +87,13 @@ The system is wrapped into a **Streamlit web app** that allows users to:
 - **GitHub & LinkedIn** (Deployment & showcase)  
 
 **IMAGES & SCREENSHOTS**
-<img width="1810" height="643" alt="6" src="https://github.com/user-attachments/assets/bff3ba7f-0238-4499-847c-37af46822384" />
-<img width="1806" height="534" alt="5" src="https://github.com/user-attachments/assets/a57f7206-5692-4697-a284-08d0f2fda8dc" />
-<img width="1905" height="515" alt="4" src="https://github.com/user-attachments/assets/53fbdd93-5b03-456d-9c13-e5e24a94fd29" />
-<img width="823" height="439" alt="3" src="https://github.com/user-attachments/assets/007c6871-ff15-4b23-bffc-536d263d764f" />
-<img width="1833" height="756" alt="2" src="https://github.com/user-attachments/assets/76782397-7870-48ec-81ce-ab057fb51376" />
-<img width="1843" height="786" alt="1" src="https://github.com/user-attachments/assets/415222dc-c308-40fd-94fe-24c339801e22" />
+<img width="1810" height="643" alt="6" src="https://github.com/user-attachments/assets/e4cae307-1bd9-4d50-b270-caab2f8fa805" />
+<img width="1806" height="534" alt="5" src="https://github.com/user-attachments/assets/3f98c087-8e03-4eab-ab3f-ac8c1e02b1a1" />
+<img width="1905" height="515" alt="4" src="https://github.com/user-attachments/assets/89034403-e1c5-4f95-9602-b2fdaf9da7be" />
+<img width="823" height="439" alt="3" src="https://github.com/user-attachments/assets/d18b6dce-cfe4-45c3-92ee-c45a43484860" />
+<img width="1833" height="756" alt="2" src="https://github.com/user-attachments/assets/aa88f56f-00a0-4b67-8304-bb66d6a472f0" />
+<img width="1843" height="786" alt="1" src="https://github.com/user-attachments/assets/48a86c02-7b31-4600-a6f3-3d21d0dd6981" />
+
 
 
 
