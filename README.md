@@ -87,12 +87,31 @@ The system is wrapped into a **Streamlit web app** that allows users to:
 - **GitHub & LinkedIn** (Deployment & showcase)  
 
 **IMAGES & SCREENSHOTS**
-<img width="1810" height="643" alt="6" src="https://github.com/user-attachments/assets/dead2d7f-cd34-41f9-bf1e-4b5c852711c9" />
-<img width="1806" height="534" alt="5" src="https://github.com/user-attachments/assets/ee48f349-8a54-43fe-b4a1-15d577057a22" />
-<img width="1905" height="515" alt="4" src="https://github.com/user-attachments/assets/244b847a-523c-4580-9f56-da9b49dbabc7" />
-<img width="823" height="439" alt="3" src="https://github.com/user-attachments/assets/9272f482-a162-4817-855f-07569266e6b5" />
-<img width="1833" height="756" alt="2" src="https://github.com/user-attachments/assets/49c9a9b1-8ed5-4eda-8f2a-cc66e93efc9a" />
-<img width="1843" height="786" alt="1" src="https://github.com/user-attachments/assets/5650ac8a-9487-48cf-87ad-22308313f342" />
+## Screenshots
+
+### Step 1 – Upload File
+<img width="1843" height="786" alt="1" src="https://github.com/user-attachments/assets/33af38db-6df8-4b1b-801f-9218dfce9de0" />
+
+
+### Step 2 – Masking Applied
+<img width="1833" height="756" alt="2" src="https://github.com/user-attachments/assets/67f5ffbd-e6fe-4d4b-bc76-fa18e84b079a" />
+
+
+### Step 3 – Entity Extraction
+<img width="823" height="439" alt="3" src="https://github.com/user-attachments/assets/f8921968-dae6-468f-bc7a-711ab8368133" />
+
+
+### Step 4 – Results Table
+<img width="1905" height="515" alt="4" src="https://github.com/user-attachments/assets/6d266a9a-fa12-4791-825c-d9e5dd2c5837" />
+
+
+### Step 5 – Bar Chart & Download Options
+<img width="1810" height="643" alt="6" src="https://github.com/user-attachments/assets/769e36c9-108e-4e5d-8dd1-04f0084051e6" />
+
+
+
+
+
 
 
 
